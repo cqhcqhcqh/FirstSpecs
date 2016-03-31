@@ -1,0 +1,25 @@
+{
+  "name": "DemoLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of DemoLibrary.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DemoLibrary",
+  "license": "MIT",
+  "authors": {
+    "chengqihan": "chengqihan@vmovier.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DemoLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DemoLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
